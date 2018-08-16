@@ -1,0 +1,124 @@
+html {
+	font-family: Arial, sans-serif;
+	color: #7d97ad;
+}
+
+header {
+  border-bottom: 3px solid #7d97ad;
+  display: flex;
+	text-align: right;
+  flex-wrap: wrap;
+  margin-top: 0;
+	padding: 10px;
+}
+
+ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	width: 200px;
+	background-color: grey;
+}
+
+li a {
+	display: block;
+	width: 60px;
+}
+
+.whoAmI {
+	float: right;
+	width: 100%;
+}
+
+
+.logoBcg {
+	width: 10%;
+}
+
+#logo  {
+	height: 60px;
+	width: 60px;
+	float: left;
+}
+
+.hero {
+	width: 100%;
+	height: inherit;
+	margin-top: 15px;
+}
+
+.featWork {
+	display: flex;
+	flex-wrap: wrap;
+}
+.block {
+	width: 100%;
+	height: 150px;
+	position: relative;
+	text-align: center;
+	overflow: hidden;
+	margin-bottom: 5px;
+}
+
+.top-left {
+	position: absolute;
+	top: 0px;
+	left: 16px;
+}
+
+img {
+	width: 100%;
+	height: auto;
+}
+
+article h1 {
+	margin-bottom: 5px;
+}
+
+h1 {
+	text-align: right;
+}
+
+h1, h4 {
+	color: #02b3e4;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+a p {
+	color: white;
+	text-align: left;
+	padding-left: 20px;
+	text-shadow: 10px 5px 10px #8B8080;
+
+}
+
+footer {
+	background-color: black;
+	color: white;
+	text-align: center;
+	font-size: 0.3em;
+}
+
+@media screen and (min-width: 500px) {
+	.block {
+		width: 50%;
+		height: 110px;
+		overflow: hidden;
+		margin-bottom: 5px;
+	}
+}
+
+@media screen and (min-width: 700px) {
+	.block {
+		width: 33%;
+		height: 110px;
+		overflow: hidden;
+		margin-bottom: 5px;
+	}
+	.container, footer {
+		width: 700px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+}

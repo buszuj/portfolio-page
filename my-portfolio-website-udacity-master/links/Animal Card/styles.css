@@ -1,0 +1,41 @@
+/* add your CSS here */
+.container {
+  width: 320px;
+  border: 1px solid #DFDFDF;
+  box-shadow: 5px 5px 1px #DFDFDF;
+}
+h3{
+  margin-left: 10px;
+}
+p {
+  margin: 10px;
+  font-style: italic;
+  font-size: 0.8em;
+}
+.animPic {
+  height: 200px;
+  width: 300px;
+  margin: auto;
+  margin-bottom: 10px;
+  display: block;
+}
+
+.longDesc{
+  font-style: normal;
+}
+.description{
+  width: 298px; /* 300px-2px to account for border thickness */
+  border: 1px solid #DFDFDF;
+  margin: 10px;
+}
+span {
+  font-weight: 800;
+}
+li {
+  list-style: none;
+  text-align: left;
+  font-size: 0.8em;
+}
+ul {
+  padding-left: 10px;
+}
